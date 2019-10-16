@@ -33,7 +33,7 @@ public class ThanosUnitTest {
     @Test
     public void testThanos() throws Exception {
         HashMap<String, Object> map = new HashMap<>();
-        String view = controller.play(null, map);+
+        String view = controller.play(null, map);
 	/** Checks if "thanos" view is being used by the controller */
         assertThat(view, is("thanos"));
     }
